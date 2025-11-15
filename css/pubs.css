@@ -1,0 +1,35 @@
+.pub-category-title{
+  background-color: cadetblue;
+  width: fit-content;
+  padding: 5px;
+}
+
+.pub-list{
+  padding-left: 25px;
+}
+
+.pub{
+  /* background: #66666666; */
+  margin: 10px;
+  padding: 5px;
+
+  border-color: dimgrey;
+  border-style: double;
+  border-width: thick;
+  border-radius: 5px;
+}
+
+.pub-title{
+  background: #66666666;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.pub-authors{
+  font-style: italic;
+}
+
+.pub-authors, .pub-venue, .pub-date, .pub-lieu {
+  margin: 0px;
+  padding: 0px;
+}
