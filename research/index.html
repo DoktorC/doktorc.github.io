@@ -3,8 +3,9 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>DokC Korner ~ Publications</title>
+        <title>DokC Korner ~ Research</title>
         <link rel="stylesheet" href="../css/bootstrap/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
         <link rel="stylesheet" href="../css/pubs.css" />
     </head>
     <body>
@@ -16,8 +17,9 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-link col-6 col-md-auto active"><a class="link-light" href="../">Home</a></li>
+          <li class="nav-link col-6 col-md-auto active"><a class="link-light" href="../">About</a></li>
           <li class="nav-link col-6 col-md-auto active"><a class="link-light" href="../research/">Research</a></li>
+          <li class="nav-link col-6 col-md-auto active"><a class="link-light" href="../teaching/">Teaching</a></li>
         </ul>
       </div>
     </nav>
@@ -27,24 +29,48 @@
         <div class="container text-left">
           <div class="row">
             <div class="column">
-            <h1>Publications</h1>
+            <h1>Research</h1>
 
-              <div class="pub-category">
+              <h2> Internships Supervision  </h2>
+<ul>
+  <li>
+    <p>Yves Sidi (February-August 2026)</p>
+    <p>Efficient and secure application of the first-order masking countermeasure on embedded deep neural networks.</p>
+  </li>
+  <li>
+    <p>Antoine Plin (February-August 2025)</p>
+    <p>Rowhammer attacks on embedded systems.</p>
+  </li>
+  <li>
+    <p>Antoine Doglioli (February-August 2025)</p>
+    <p>Physical side-channel security of embedded deep neural networks.</p>
+  </li>
+</ul>
+
+<h2> Publications and Dissemination </h2>
+
+<div class="pub-category">
   <h5 class="pub-category-title"> Journals </h5>
   <div class="pub-list">
     <div class="pub">
       <h5 class="pub-title"> A Tale of Resilience: On the Practical Security of Masked Software Implementations</h5>
-  
-      <p class="pub-authors"> <a href="#" class="main-author">L. Casalino</a>,
-                           <a href="#">N. Belleville</a>,
-                           <a href="#">D. Couroussé</a> and
-                           <a href="#">K. Heydemann</a>.
-      </p>
-      <p class="pub-venue">IEEE ACCESS</p>
-      <p class="pub-date">2023</p>
-      
-      <button type="button" class="btn btn-dark btn-sm"><a href="../assets/publications/2023/a-tale-of-resilience.pdf">PDF</a></button>
-      <button type="button" class="btn btn-dark btn-sm"><a href="https://zenodo.org/record/8094516">Code</a></button>
+ 
+      <div class="pub-metadata">
+        <p class="pub-metadata-content pub-authors">
+          <a href="#" class="author-me">L. Casalino</a>,
+          <a href="#">N. Belleville</a>,
+          <a href="#">D. Couroussé</a> and
+          <a href="#">K. Heydemann</a>.
+        </p>
+        <p class="pub-metadata-content pub-venue">IEEE ACCESS,</p>
+        <p class="pub-metadata-content pub-date">2023, </p>
+        <p class="pub-metadata-content pub-doi">DOI: <a href="https://doi.org/10.1109/ACCESS.2023.3298436">10.1109/ACCESS.2023.3298436</a></p>
+      </div>
+
+      <div class="btn-group pub-resources">
+        <button type="button" class="btn btn-dark btn-pdf"><a href="../assets/publications/2023/a-tale-of-resilience.pdf">PDF</a></button>
+        <button type="button" class="btn btn-dark btn-code"><a href="https://zenodo.org/record/8094516">Code</a></button>
+      </div>
     </div>
   </div>
 </div>
@@ -54,35 +80,47 @@
   <div class="pub-list">
     <div class="pub">
       <h5 class="pub-title"> Double Strike: Breaking Approximation-based Side-Channel Countermeasures for DNNs </h5>
-      <p class="pub-authors"> <a href="#" class="main-author">L. Casalino</a>,
-                           <a href="#">M. M. Real</a>,
-                           <a href="#">J.-C. Prévotet</a> and
-                           <a href="#">R. Salvador</a>.
-      </p>
-      <p class="pub-venue">HOST</p>
-      <p class="pub-date">2026</p>
-      <p class="pub-lieu">Washington, USA</p>
+
+      <div class="pub-metadata">
+        <p class="pub-metadata-content pub-authors">
+          <a href="#" class="author-me">L. Casalino</a>,
+          <a href="#">M. M. Real</a>,
+          <a href="#">J.-C. Prévotet</a> and
+          <a href="#">R. Salvador</a>.
+        </p>
+        <p class="pub-metadata-content pub-venue">IEEE International Symposium on Hardware Oriented Security and Trust (HOST),</p>
+        <p class="pub-metadata-content pub-date">May 4-7, 2026,</p>
+        <p class="pub-metadata-content pub-lieu">Washington, USA, </p>
+        <p class="pub-metadata-content pub-doi">DOI: <a href="https://doi.org/10.1109/HOST68814.2026.11604810">10.1109/HOST68814.2026.11604810</a></p>
+      </div>
       
-      <button type="button" class="btn btn-dark btn-sm"><a href="https://doi.org/10.48550/arXiv.2601.08698">PDF</a></button>
-      <button type="button" class="btn btn-dark btn-sm"><a href="https://zenodo.org/records/17969535">Code</a></button>
-      <button type="button" class="btn btn-dark btn-sm"><a href="https://zenodo.org/records/17965887">Dataset</a></button>
-      <button type="button" class="btn btn-dark btn-sm" disabled><a href="#">Slides</a></button>
+      <div class="btn-group pub-resources">
+        <button type="button" class="btn btn-dark btn-pdf"><a href="https://doi.org/10.48550/arXiv.2601.08698">PDF</a></button>
+        <button type="button" class="btn btn-dark btn-code"><a href="https://zenodo.org/records/17969535">Code</a></button>
+        <button type="button" class="btn btn-dark btn-dataset"><a href="https://zenodo.org/records/17965887">Dataset</a></button>
+        <button type="button" class="btn btn-dark btn-slides" disabled><a href="#">Slides</a></button>
+      </div>
     </div>
 
     <div class="pub">
       <h5 class="pub-title"> Knock-Knock: Black-Box, Platform-Agnostic DRAM Address-Mapping Reverse Engineering </h5>
-      <p class="pub-authors"> <a href="#" class="main-author">A. Plin</a>,
-                           <a href="#">L. Casalino</a>,
-                           <a href="#">T. Rokicki</a> and
-                           <a href="#">R. Salvador</a>.
-      </p>
-      <p class="pub-venue">uASC'26 - 2nd Microarchitecture Security Conference.</p>
-      <p class="pub-date">2026</p>
-      <p class="pub-lieu">Leuven, Belgium</p>
+      <div class="pub-metadata">
+        <p class="pub-metadata-content pub-authors">
+          <a href="#">A. Plin</a>,
+          <a href="#" class="author-me">L. Casalino</a>,
+          <a href="#">T. Rokicki</a> and
+          <a href="#">R. Salvador</a>.
+        </p>
+        <p class="pub-metadata-content pub-venue">uASC'26 - 2nd Microarchitecture Security Conference,</p>
+        <p class="pub-metadata-content pub-date">Feb. 3, 2026, </p>
+        <p class="pub-metadata-content pub-lieu">Leuven, Belgium.</p>
+      </div>
 
-      <button type="button" class="btn btn-dark btn-sm"><a href="https://arxiv.org/abs/2509.19568">PDF</a></button>
-      <button type="button" class="btn btn-dark btn-sm"><a href="https://github.com/antpln/Knock-Knock">Code</a></button>
-      <button type="button" class="btn btn-dark btn-sm" disabled><a href="#">Slides</a></button>
+      <div class="btn-group pub-resources">
+        <button type="button" class="btn btn-dark btn-pdf"><a href="https://uasc.cc/proceedings26/uasc26-plin.pdf">PDF</a></button>
+        <button type="button" class="btn btn-dark btn-code"><a href="https://github.com/antpln/Knock-Knock">Code</a></button>
+        <button type="button" class="btn btn-dark btn-video"><a href="https://www.youtube.com/watch?v=ZX6Xe5doMwA&list=PLU5AuxNacTWKdAM3hpw4Smg4x5bj2IBxg&index=16">Video</a></button>
+      </div>
     </div>
   </div>
 </div>
@@ -91,34 +129,43 @@
   <h5 class="pub-category-title"> Posters </h5>
   <div class="pub-list">
     <div class="pub">
-      <h5 class="pub-title"> ATTILA -- Addressing securiTy Threats to artIficiaL intelligence in Approximate computing systems </h5>
+      <h5 class="pub-title"> ATTILA: Addressing securiTy Threats to artIficiaL intelligence in Approximate computing systems </h5>
   
-      <p class="pub-authors"> <a href="#" class="main-author">L. Casalino</a>,
-                           <a href="#">M. M. Real</a>,
-                           <a href="#">J.-C. Prévotet</a> and
-                           <a href="#">R. Salvador</a>.
-      </p>
-      <p class="pub-venue">Workshop interdisciplinaire sur la sécurité globale</p>
-      <p class="pub-date">Mar. 26-27, 2025</p>
-      <p class="pub-lieu">Paris, France</p>
+      <div class="pub-metadata">
+        <p class="pub-metadata-content pub-authors">
+          <a href="#" class="author-me">L. Casalino</a>,
+          <a href="#">M. M. Real</a>,
+          <a href="#">J.-C. Prévotet</a> and
+          <a href="#">R. Salvador</a>.
+        </p>
+        <p class="pub-metadata-content pub-venue">Workshop interdisciplinaire sur la sécurité globale,</p>
+        <p class="pub-metadata-content pub-date">Mar. 26-27, 2025,</p>
+        <p class="pub-metadata-content pub-lieu">Paris, France.</p>
+      </div>
       
-      <button type="button" class="btn btn-dark btn-sm"><a href="https://hal.science/hal-05262917/document">PDF</a></button>
+      <div class="btn-group pub-resources">
+        <button type="button" class="btn btn-dark btn-pdf"><a href="https://hal.science/hal-05262917/document">PDF</a></button>
+      </div>
     </div>
 
     <div class="pub">
       <h5 class="pub-title"> A Tale of Resilience: On the Practical Security of Masked Software Implementations </h5>
   
-      <p class="pub-authors"> <a href="#" class="main-author">L. Casalino</a>,
-                           <a href="#">N. Belleville</a>,
-                           <a href="#">D. Couroussé</a> and
-                           <a href="#">K. Heydemann</a>.
-      </p>
-      <p class="pub-venue">IACR CHES</p>
-      <p class="pub-date">Sept. 10-14, 2023</p>
-      <p class="pub-lieu">Prague, Czech Republic</p>
+      <div class="pub-metadata">
+        <p class="pub-metadata-content pub-authors">
+          <a href="#" class="author-me">L. Casalino</a>,
+          <a href="#">N. Belleville</a>,
+          <a href="#">D. Couroussé</a> and
+          <a href="#">K. Heydemann</a>.
+        </p>
+        <p class="pub-metadata-content pub-venue">IACR CHES,</p>
+        <p class="pub-metadata-content pub-date">Sept. 10-14, 2023, </p>
+        <p class="pub-metadata-content pub-lieu">Prague, Czech Republic.</p>
+      </div>
       
-      <button type="button" class="btn btn-dark btn-sm"><a href="../assets/posters/2023/ches2023-cea-list-lcasalino.pdf">PDF</a></button>
-    </div>
+      <div class="btn-group pub-resources">
+        <button type="button" class="btn btn-dark btn-pdf"><a href="../assets/posters/2023/ches2023-cea-list-lcasalino.pdf">PDF</a></button>
+      </div>
   </div>
 </div>
 
@@ -127,48 +174,71 @@
   <div class="pub-list">
     <div class="pub">
       <h5 class="pub-title"> Hey, Where is Blue Team?! - How We are Defending AI against Side-Channel Attacks </h5>
-  
-      <p class="pub-authors"> <a href="#" class="main-author">L. Casalino</a></p>
-      <p class="pub-venue">Journées Nationales GDR Sécurité Informatique</p>
-      <p class="pub-date">Jun. 9-11, 2026</p>
-      <p class="pub-lieu">Lille, France</p>
+ 
+      <div class="pub-metadata">
+        <p class="pub-metadata-content pub-authors">
+          <a href="#" class="author-me">L. Casalino</a>.
+        </p>
+        <p class="pub-metadata-content pub-venue">Journées Nationales GDR Sécurité Informatique,</p>
+        <p class="pub-metadata-content pub-date">Jun. 9-11, 2026,</p>
+        <p class="pub-metadata-content pub-lieu">Lille, France.</p>
+      </div>
       
-      <button type="button" class="btn btn-dark btn-sm"><a href="../assets/docs/2026/presentation-gdr-si26.pdf">Slides</a></button>
+      <div class="btn-group pub-resources">
+        <button type="button" class="btn btn-dark btn-slides"><a href="../assets/docs/2026/presentation-gdr-si26.pdf">Slides</a></button>
+      </div>
     </div>
 
     <div class="pub">
       <h5 class="pub-title"> Double Strike: Breaking Approximation-Based Side-Channel Countermeasures for DNNs </h5>
   
-      <p class="pub-authors"> <a href="#" class="main-author">L. Casalino</a></p>
-      <p class="pub-venue">Creac'h Labs Seminar</p>
-      <p class="pub-date">Mar. 20, 2026</p>
-      <p class="pub-lieu">Rennes, France</p>
+      <div class="pub-metadata">
+        <p class="pub-metadata-content pub-authors">
+          <a href="#" class="author-me">L. Casalino</a>.
+        </p>
+        <p class="pub-metadata-content pub-venue">Creac'h Labs Seminar,</p>
+        <p class="pub-metadata-content pub-date">Mar. 20, 2026,</p>
+        <p class="pub-metadata-content pub-lieu">Rennes, France.</p>
+      </div>
       
-      <button type="button" class="btn btn-dark btn-sm"><a href="../assets/docs/2026/presentation-creach-labs26.pdf">Slides</a></button>
+      <div class="btn-group pub-resources">
+        <button type="button" class="btn btn-dark btn-slides"><a href="../assets/docs/2026/presentation-creach-labs26.pdf">Slides</a></button>
+      </div>
     </div>
 
     <div class="pub">
       <h5 class="pub-title"> Side Channels and Deep Neural Network Weights: Attacks, Defences and the Future to Come </h5> 
-      <p class="pub-authors"> <a href="#" class="main-author">L. Casalino</a></p>
-      <p class="pub-venue">Journées SSLR</p>
-      <p class="pub-date">Oct. 8-9, 2025</p>
-      <p class="pub-lieu">Paris, France</p>
+      <div class="pub-metadata">
+        <p class="pub-metadata-content pub-authors">
+          <a href="#" class="author-me">L. Casalino</a>.
+        </p>
+        <p class="pub-metadata-content pub-venue">Journées SSLR</p>
+        <p class="pub-metadata-content pub-date">Oct. 8-9, 2025</p>
+        <p class="pub-metadata-content pub-lieu">Paris, France</p>
       
+      </div>
 
-      <button type="button" class="btn btn-dark btn-sm"><a href="../assets/docs/2025/presentation-sslr25.pdf">Slides</a></button>
-    </div>
+      <div class="btn-group pub-resources">
+        <button type="button" class="btn btn-dark btn-slides"><a href="../assets/docs/2025/presentation-sslr25.pdf">Slides</a></button>
+      </div>
   </div>
 </div>
 
     <div class="pub">
       <h5 class="pub-title"> (On) The Impact of the Micro-architecture on the Masking Countermeasure against Side-Channel Attacks </h5>
   
-      <p class="pub-authors"> <a href="#" class="main-author">L. Casalino</a></p>
-      <p class="pub-venue">Creac'h Labs Seminar</p>
-      <p class="pub-date">Oct. 18, 2024</p>
-      <p class="pub-lieu">Rennes, France</p>
+      <div class="pub-metadata">
+        <p class="pub-metadata-content pub-authors">
+          <a href="#" class="author-me">L. Casalino</a>.
+        </p>
+        <p class="pub-metadata-content pub-venue">Creac'h Labs Seminar</p>
+        <p class="pub-metadata-content pub-date">Oct. 18, 2024</p>
+        <p class="pub-metadata-content pub-lieu">Rennes, France</p>
+     </div>
       
-      <button type="button" class="btn btn-dark btn-sm"><a href="../assets/docs/2024/phd-defense-slides-lcasalino.pdf">Slides</a></button>
+      <div class="btn-group pub-resources">
+        <button type="button" class="btn btn-dark btn-slides"><a href="../assets/docs/2024/phd-defense-slides-lcasalino.pdf">Slides</a></button>
+      </div>
     </div>
 
 <div class="pub-category">
@@ -177,13 +247,18 @@
     <div class="pub">
       <h5 class="pub-title"> (On) The Impact of the Micro-architecture on Countermeasures against Side-Channel Attacks </h5>
   
-      <p class="pub-authors"> <a href="#" class="main-author">L. Casalino</a></p>
-      </p>
-      <p class="pub-venue">Sorbonne Universite</p>
-      <p class="pub-date">2024</p>
+      <div class="pub-metadata">
+        <p class="pub-metadata-content pub-authors">
+          <a href="#" class="author-me">L. Casalino</a>.
+        </p>
+        <p class="pub-metadata-content pub-venue">Sorbonne Universite, </p>
+        <p class="pub-metadata-content pub-date">2024.</p>
+      </div>
       
-      <button type="button" class="btn btn-dark btn-sm"><a href="https://theses.hal.science/tel-04573949v1/document">PDF</a></button>
-      <button type="button" class="btn btn-dark btn-sm"><a href="../assets/docs/2024/phd-defense-slides-lcasalino.pdf">Slides</a></button>
+      <div class="btn-group pub-resources">
+        <button type="button" class="btn btn-dark btn-pdf"><a href="https://theses.hal.science/tel-04573949v1/document">PDF</a></button>
+        <button type="button" class="btn btn-dark btn-slides"><a href="../assets/docs/2024/phd-defense-slides-lcasalino.pdf">Slides</a></button>
+      </div>
     </div>
   </div>
 </div> 
@@ -194,12 +269,17 @@
     <div class="pub">
       <h5 class="pub-title"> Devil is in the Detail: A compiler based solution to microarchitecture-induced side channel leakages</h5>
   
-      <p class="pub-authors"> <a href="#" class="main-author">L. Casalino</a></p>
-      </p>
-      <p class="pub-venue">Politecnico di Milano</p>
-      <p class="pub-date">2020</p>
+      <div class="pub-metadata">
+        <p class="pub-metadata-content pub-authors">
+          <a href="#" class="author-me">L. Casalino</a>.
+        </p>
+        <p class="pub-metadata-content pub-venue">Politecnico di Milano</p>
+        <p class="pub-metadata-content pub-date">2020</p>
+      </div>
       
-      <button type="button" class="btn btn-dark btn-sm"><a href="../assets/docs/2020/manuscript-msc-lcasalino.pdf">PDF</a></button>
+      <div class="btn-group pub-resources">
+        <button type="button" class="btn btn-dark btn-pdf"><a href="../assets/docs/2020/manuscript-msc-lcasalino.pdf">PDF</a></button>
+      </div>
     </div>
   </div>
 </div> 
@@ -209,6 +289,9 @@
         </div>
 
         <footer class="container text-center">
+          <a href="https://github.com/DoktorC"><i class="bi bi-github fs-3" style="color: #666"></i></a>&nbsp;&nbsp;
+          <a href="https://fr.linkedin.com/in/lorenzocasalino"><i class="bi bi-linkedin fs-3" style="color: #666"></i></a>
+         <br />
           Generated with <a href="http://jaspervdj.be/hakyll">Hakyll</a>, <a href="https://getbootstrap.com/">Bootstrap</a> and <3!
         </footer>
         <script src="../js/bootstrap/bootstrap.bundle.min.js"></script>

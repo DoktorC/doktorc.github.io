@@ -1,16 +1,18 @@
 .pub-category-title{
-  background-color: cadetblue;
+  background-color: chocolate;
   width: fit-content;
   padding: 5px;
+  border-radius: 5px;
 }
 
 .pub-list{
-  padding-left: 25px;
+  padding-left: 0px;
 }
 
 .pub{
   /* background: #66666666; */
-  margin: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   padding: 5px;
 
   border-color: dimgrey;
@@ -25,11 +27,130 @@
   border-radius: 5px;
 }
 
-.pub-authors{
-  font-style: italic;
+.pub-metadata {
+  padding: 10px;
+}
+
+.pub-metadata-content {
+  display: inline;
+}
+
+.pub-authors a, .pub-doi a {
+  text-decoration: none;
 }
 
 .pub-authors, .pub-venue, .pub-date, .pub-lieu {
   margin: 0px;
   padding: 0px;
+}
+
+.pub-venue {
+  font-style: italic;
+}
+
+.pub-resources {
+  margin: 10px;
+}
+
+a.author-me {
+  text-decoration: underline;
+}
+
+.btn-pdf, .btn-code, .btn-dataset, .btn-slides, .btn-video {
+  font-weight: bold;
+}
+
+button.btn-pdf {
+  background-color: darkred;
+}
+
+button.btn-pdf:hover {
+  background-color: red;
+  color: #fff;
+}
+
+button.btn-pdf a {
+  color: #fff;
+  text-decoration: none;
+}
+
+button.btn-pdf a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+button.btn-code {
+  background-color: darkblue;
+}
+
+button.btn-code:hover {
+  background-color: blue;
+  color: #fff;
+}
+
+button.btn-code a {
+  color: #fff;
+  text-decoration: none;
+}
+
+button.btn-code a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+button.btn-dataset {
+  background-color: lightcoral;
+}
+
+button.btn-dataset:hover {
+  background-color: lightsalmon;
+  color: #fff;
+}
+
+button.btn-dataset a {
+  color: #fff;
+  text-decoration: none;
+}
+
+button.btn-dataset a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+button.btn-slides {
+  background-color: darkgreen;
+}
+
+button.btn-slides:hover {
+  background-color: green;
+  color: #fff;
+}
+
+button.btn-slides a {
+  color: #fff;
+  text-decoration: none;
+}
+
+button.btn-slides a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+button.btn-video {
+  background-color: slategray;
+}
+
+button.btn-video:hover {
+  background-color: silver;
+  color: #fff;
+}
+
+button.btn-video a {
+  color: #fff;
+  text-decoration: none;
+}
+
+button.btn-video a:hover {
+  color: #fff;
+  text-decoration: none;
 }
